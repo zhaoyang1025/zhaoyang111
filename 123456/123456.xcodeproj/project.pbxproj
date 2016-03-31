@@ -15,6 +15,7 @@
 		BCCCF76E1CACFE3800CC5233 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCCF76C1CACFE3800CC5233 /* LaunchScreen.storyboard */; };
 		BCCCF7791CACFE3800CC5233 /* _23456Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCCF7781CACFE3800CC5233 /* _23456Tests.m */; };
 		BCCCF7841CACFE3800CC5233 /* _23456UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCCF7831CACFE3800CC5233 /* _23456UITests.m */; };
+		BCCCF7941CAD07C900CC5233 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCCF7931CAD07C900CC5233 /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BCCCF77F1CACFE3800CC5233 /* 123456UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 123456UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCCCF7831CACFE3800CC5233 /* _23456UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _23456UITests.m; sourceTree = "<group>"; };
 		BCCCF7851CACFE3800CC5233 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCCF7921CAD07C900CC5233 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		BCCCF7931CAD07C900CC5233 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BCCCF7621CACFE3800CC5233 /* AppDelegate.m */,
 				BCCCF7641CACFE3800CC5233 /* ViewController.h */,
 				BCCCF7651CACFE3800CC5233 /* ViewController.m */,
+				BCCCF7921CAD07C900CC5233 /* MyViewController.h */,
+				BCCCF7931CAD07C900CC5233 /* MyViewController.m */,
 				BCCCF7671CACFE3800CC5233 /* Main.storyboard */,
 				BCCCF76A1CACFE3800CC5233 /* Assets.xcassets */,
 				BCCCF76C1CACFE3800CC5233 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				BCCCF7661CACFE3800CC5233 /* ViewController.m in Sources */,
 				BCCCF7631CACFE3800CC5233 /* AppDelegate.m in Sources */,
+				BCCCF7941CAD07C900CC5233 /* MyViewController.m in Sources */,
 				BCCCF7601CACFE3800CC5233 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +504,7 @@
 				BCCCF78A1CACFE3800CC5233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCCCF78B1CACFE3800CC5233 /* Build configuration list for PBXNativeTarget "123456Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				BCCCF78D1CACFE3800CC5233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCCCF78E1CACFE3800CC5233 /* Build configuration list for PBXNativeTarget "123456UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				BCCCF7901CACFE3800CC5233 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
